@@ -7,7 +7,7 @@ variable "region" {
 variable "bucket_name" {
   type        = string
   description = "The name of the S3 bucket"
-  default = "uber-woodprogrammer-managed-bucket"
+  default = "uber"
 }
 
 variable "environment" {
