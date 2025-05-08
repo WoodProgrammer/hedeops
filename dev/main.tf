@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "spacelift_bucket" {
   bucket = var.bucket_name
 
   tags = {
-    ManagedBy = "Spacelift"
+    ManagedBy = "SpaceliftTeam"
     Environment = var.environment
   }
 }
